@@ -11,7 +11,7 @@ import interface as ui
 # Spotify API credentials
 CLIENT_ID = st.secrets["CLIENT_ID"]
 CLIENT_SECRET = st.secrets["CLIENT_SECRET"]
-REDIRECT_URI = "https://genresync.streamlit.app/"
+REDIRECT_URI = "https://genresync01.streamlit.app/"
 
 AUTH_URL = "https://accounts.spotify.com/authorize"
 TOKEN_URL = "https://accounts.spotify.com/api/token"
